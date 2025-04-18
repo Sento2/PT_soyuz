@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas2</title>
+    <style>
+      h1{color: blue;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+  </style>
+  <link rel="stylesheet" href="Tugas2.css">
+  </head>
+  <body>
+    <div class="card">
+      <table border="1" cellpadding="10" cellspacing="0">
+        <tr bgcolor="Yellow">
+          <th>NO</th>
+          <th>Nama</th>
+          <th>Email</th>
+          <th>Alamat</th>
+          <th>Jenis Kelamin</th>
+          <th>Agama</th>
+          <th>Hobi</th>
+          <th>Instagram</th>
+          <th>Logo universitas</th>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Magrib</td>
+          <td>Magrib@gmail.com</td>
+          <td>Perdos</td>
+          <td bgcolor="aqua">Laki Laki</td>
+          <td>Islam</td>
+          <td>Membaca</td>
+          <td>Sento</td>
+          <td align="center" rowspan="2"><img src="logo untad.png" width="60" height="50"</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Roxy</td>
+          <td>ALex@gmail.com</td>
+          <td>jl.ketapang buah</td>
+          <td bgcolor="pink">Perempuan</td>
+          <td>Islam</td>
+          <td>magic</td>
+          <td>Roxy</td>
+          
+        </tr>
+      </table>
+      
+    </div>
+      <br>
+      <h1>Formulir Pendaftaran</h1>
+      <form>
+        <label for="nama">Nama: </label> <br />
+        <input type="text" name="nama" placeholder="Ketik" /><br />
+        <br />
+        <label for="nama">Email: </label> <br />
+        <input type="text" name="Email" placeholder="Ketik"/><br />
+        <br />
+        <label for="nama">Password</label><br>
+        <input type="password" placeholder="masukan password"><br>
+        <br>
+        <label for="nama">Alamat: </label> <br />
+        <input type="text" name="nama" /><br />
+        <br />
+        <tr>
+        Jenis Kelamin
+        </tr>
+        <br />
+        <input type="radio" id="laki-laki" name="Jenis kelamin" value="laki-laki" />
+        <label for="laki-laki">Laki-laki</label>
+        <input type="radio" id="perempuan" name="Jenis kelamin" value="perempuan" />
+        <label for="Perempuan">Perempuan</label>
+        <input type="radio" id="plastik alfamidi" name="Jenis kelamin" value="plastik alfamidi" />
+        <label for="Plastik alfamidi">Plastik alfamidi</label>
+        <br />
+        <br>
+        <tr>
+        <td>Agama:</td>
+          </tr>
+          <br>
+        <select>
+          <option value="1">Islam</option>
+          <option value="2">Kristen</option>
+          <option value="3">Bukan Islam</option>
+          <select name="Agama" id="Agama">
+  
+          </select>
+         <br>
+          <tr><br>
+              Hobi: 
+          </tr>
+          <br>
+              <input type="checkbox" name="minat" id="Membaca" value="Membaca">
+              <label for="minat">Membaca
+                <span class="checkmark"></span>
+              </label>
+              <input type="checkbox" name="minat" id="Menulis" value="Menulis">
+              <label for="minat">Menulis
+                <span class="checkmark"></span>
+              </label>
+              <input type="checkbox" name="minat" id="Magic" value="Magic">
+              <label for="minat">Magic
+                <span class="checkmark"></span>
+              </label>
+              <input type="checkbox" name="minat" id="PMO" value="PMO">
+              <label for="minat">PMO
+                <span class="checkmark"></span>
+              </label>
+              <br><br>
+              <button>Kirim</button>
+        </form>
+    
+    
+  </body>
+</html>
