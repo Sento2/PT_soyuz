@@ -1,0 +1,21 @@
+.yellow-box{
+    position: absolute;
+    right: 0;
+    height: 80px;
+    width: 80px;
+    background: yellow;
+}
+
+.red-box{
+    width: 300px;
+    height: 200px;
+    background-color: red;
+}
+
+.blue-box{
+    position: relative;
+    border: 2px solid black;
+    height: 400px;
+    width: 400px;
+    background: deepskyblue;
+}
